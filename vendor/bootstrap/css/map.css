@@ -1,0 +1,15 @@
+#map {
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    left: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    outline: initial;   
+    outline: rgb(223, 101, 101) dashed;
+}
+#layer-2 {
+    height: 200px;
+}

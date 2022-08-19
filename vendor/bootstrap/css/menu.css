@@ -1,0 +1,53 @@
+
+.navi {
+  width: 300px;
+}
+
+.anamenu, .altmenu {
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+}
+
+.anamenu a{
+  display: block;
+
+  background-color:#e67e22;
+
+  text-decoration: none;
+
+  padding: 10px;
+
+  color: #000;
+
+  
+}
+
+.anamenu a:hover {
+    background-color:#d35400;
+}
+
+
+.anamenu li:hover .altmenu {
+  display: block;
+
+  max-height: 100px;
+}
+
+.altmenu a{
+  background-color:#f39c12; 
+}
+
+.altmenu a:hover {
+  background-color:#7f8c8d;
+}
+
+.altmenu {
+  overflow: hidden;
+
+  max-height: 0;
+
+  -webkit-transition: all 0.5s ease-out;
+}
